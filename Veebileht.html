@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ET">
+    <head>
+        <title>Marie ilutuba</title>
+        <link rel="stylesheet" type="text/css" href="Kujundus.css">
+    </head>
+
+    <body>
+        <div class="page-wrapper">
+            <div class="row">
+                <div class="column">
+                    <div class="vasakpoolne">
+                        <h1>Marie ilutuba</h1>
+                        <a href="Hinnakiri.HTML" target="_blank">HINNAKIRI</a>
+                        <a href="Broneering.HTML" target="_blank">BRONEERI AEG</a>
+                        <br>
+                        <br>
+                        <br>
+                        <img src="" id="image">
+
+                        <script type="text/javascript">
+                            let image = document.getElementById('image');
+                            let images = ['image1.jpg','image2.jpg','image3.jpg','image4.jpg']
+                            setInterval(function(){
+                                let random = Math.floor(Math.random() * 4);
+                                image.src = images[random]
+                            }, 800);
+                        </script>             
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="parempoolne">
+                        <br>
+                        <br>
+                        <br>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <a href="https://www.tumblr.com/" target="_blank">
+                            <ion-icon name="logo-tumblr"></ion-icon>
+                        </a>
+                        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+                        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+                        <br>
+                        <br>
+                        <br>
+                        <img src="Google Maps.png" alt="kaart">
+                        <p>Narva mnt 18, 51009 Tartu, Eesti</p>
+                        <p>Avatud E-P kell 07.30 – 20.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
